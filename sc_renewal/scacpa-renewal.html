@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>SCACPA Membership Renewal</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/scacpa-styles.css" rel="stylesheet">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+
+        <a class="navbar-brand" href="#">
+          <img src="img/logo-svg-1.svg" alt="SCACPA">
+        </a>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--User Proile-->
+  <div class="container">
+    <div class="row" id="user-profile">
+      <div class="col-sm-8">
+        <div class="user-table" data-example-id="panel-without-body-with-table">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3>User Profile</h3>
+            </div>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th scope="row">Name</th>
+                  <td>Christopher D. Jenkins</td>
+                </tr>
+                <tr>
+                  <th scope="row">Member ID</th>
+                  <td>5672829</td>
+                </tr>
+                <tr>
+                  <th scope="row">Member Type</th>
+                  <td>Fellow</td>
+                </tr>
+                <tr>
+                  <th scope="row">Company</th>
+                  <td>South Carolina Associations of CPAs</td>
+                </tr>
+                <tr>
+                  <th scope="row">Address</th>
+                  <td>342 Something Street, Charleston, SC 452334</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <p class="small text-center">
+          <em>If any of the information above is incorrect, please navigate to your
+            <a href="#">profile</a> to update.</em>
+        </p>
+      </div>
+      <!--end col-8-->
+      <!--Profile Picture-->
+      <div class="col-sm-4">
+        <img src="img/profile-placeholder.jpg" class="img-responsive center-block" alt="User Profile Picture">
+      </div>
+      <!--end col-4-->
+    </div>
+    <!--end user profile row-->
+
+    <!--Chapter and Specialized Product Selection-->
+    <div class="row" id="chapter-product">
+      <!--Chapter Selection-->
+      <div class="col-sm-6">
+        <div class="form-group box-selection">
+          <h3>Chapter Selection </h3>
+          <p>Select a chapter you would like to join</p>
+          <form class="form-horizontal">
+            <fieldset>
+              <!-- Select Basic -->
+              <select id="selectbasic" name="selectbasic" class="form-control">
+                <option value="1">Catawba</option>
+                <option value="2">Central</option>
+                <option value="3">Coastal</option>
+                <option value="4">Foothills</option>
+                <option value="5">Grand Strand</option>
+                <option value="6">Pee Dee</option>
+                <option value="7">Piedmont</option>
+                <option value="8">Sea Island</option>
+                <option value="20">Out of State</option>
+              </select>
+            </fieldset>
+          </form>
+          <img src="img/chapters-map.png" class="img-responsive center-block map-img" alt="Chapters Map">
+        </div>
+      </div>
+      <!--end col-6-->
+
+      <!--Specialized Products-->
+      <div class="col-sm-6" id="spec-product-box">
+
+        <!--Start New Specialized Product Selection-->
+        <div class="card">
+          <div class="card-header">
+            <p>Please select any specialized products you would like to receive:</p>
+          </div>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              Accounting &amp; Auditing Knowledge Network ($0.00)
+              <label class="checkbox">
+                <input type="checkbox" />
+                <span class="success"></span>
+              </label>
+            </li>
+            <li class="list-group-item">
+              Business &amp; Industry Knowledge Network ($0.00)
+              <label class="checkbox">
+                <input type="checkbox" />
+                <span class="success"></span>
+              </label>
+            </li>
+            <li class="list-group-item">
+              Management of Accounting Practice Knowledge Network ($0.00)
+              <label class="checkbox">
+                <input type="checkbox" />
+                <span class="success"></span>
+              </label>
+            </li>
+            <li class="list-group-item">
+              Taxation Knowledge Network ($0.00)
+              <label class="checkbox">
+                <input type="checkbox" />
+                <span class="success"></span>
+              </label>
+            </li>
+          </ul>
+        </div>
+        <!--end card-->
+        <!--End New Specialized Product Selection-->
+      </div>
+      <!--end col-6-->
+    </div>
+    <!--end Chapter and Product Row-->
+  </div>
+  <!-- End User Profile /container -->
+
+  <!--Subscription and Contribution Section-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center" id="sub-info">
+        <h2>Subscription &amp; Contribution Information</h2>
+      </div>
+      <!--end col-12-->
+
+      <!--Left Contributionsv/ Payment Section-->
+      <div class="col-sm-6">
+        <!--Contributions Form-->
+        <form>
+          <!-- Contributions Checkboxes -->
+          <div class="form-group box-sub" id="cont-box">
+            <h4>Contributions
+              <a class="tool" href="#" data-toggle="tooltip" title="We understand that certain organizations are unable to donate to a Political Action Committee or Educational Fund. If you wish to make a personal contribution, visit PAC or Ed Fund. ">
+                <i class="glyphicon glyphicon-question-sign"></i>
+              </a>
+            </h4>
+            <p class="small gray">A portion will benefit SCACPA's CPA-PAC and Educational Fund. </br>
+              <em>If you are unable to contibute to the PAC or Educational Fund, please indicate below.</em>
+            </p>
+            <div class="checkbox">
+              <label for="contributions -0">
+                <input type="checkbox" name="contributions " id="contributions -0" value="15"> Do not place a portion of my subscription to the CPA-PAC.
+              </label>
+            </div>
+            <div class="checkbox">
+              <label for="contributions -1">
+                <input type="checkbox" name="contributions " id="contributions -1" value="16"> Do not place a portion of my subscription to the Educational Fund.
+              </label>
+            </div>
+          </div>
+        </form>
+        <!---end contribution form-->
+
+        <!--Payment Form-->
+        <form>
+          <!-- Multiple Checkboxes -->
+          <div class="form-group box-sub" id="pay-box">
+            <h4>Payment Preference</h4>
+            <div class="radio">
+              <label for="payment-0">
+                <input type="radio" name="payment" id="payment-0" value="13"> Full Amount
+              </label>
+            </div>
+            <div class="radio">
+              <label for="payment-1">
+                <input type="radio" name="payment" id="payment-1" value="14"> Monthly Installment
+                <a class="tool" href="#" data-toggle="tooltip" title="You may elect to make monthly payments of $69.99. The one-time chapter discount does not apply towards monthly payments.">
+                  <i class="glyphicon glyphicon-question-sign"></i>
+                </a>
+              </label>
+            </div>
+          </div>
+        </form>
+        <!--End payment form-->
+      </div>
+      <!--end col-6-->
+
+      <!--Pricing Table-->
+      <div class="col-sm-6">
+        <ul class="list-group" id="payment-table">
+          <li class="list-group-item">
+            <span class="price">$799.00</span>
+            Subscription
+          </li>
+          <li class="list-group-item">
+            <span class="price">$25.00</span>
+            Late Fee
+          </li>
+          <li class="list-group-item" id="subtotal">
+            <span class="price" id="sub-price">$824.00</span>
+            <strong>SUBTOTAL</strong>
+          </li>
+          <li class="list-group-item" id="discount">
+            <span class="price">
+              <span class="red">
+                <em>- $99.00</em>
+              </span>
+            </span>
+            One-Time Chapter Discount
+          </li>
+          <li class="list-group-item text-center">
+            <span class="amount">
+              <strong>AMOUNT DUE</strong>
+            </span>
+            <br>
+            <span class="amount-total">
+              <strong>$725.00</strong>
+            </span>
+          </li>
+        </ul>
+        <!--end Pricing Table-->
+      </div>
+      <!--end col-6-->
+    </div>
+    <!--end row-->
+  </div>
+  <!--End Subscription container-->
+
+  <!--Payment Section-->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Payment</h3>
+        <hr>
+        <div class="row" id="card-one">
+          <div class="col-md-6">
+            <label for="cc-name">Name on card</label>
+            <input type="text" class="form-control" id="cc-name" placeholder="" required>
+            <small class="text-muted">Full name as displayed on card</small>
+          </div>
+          <div class="col-md-6">
+            <label for="cc-number">Credit card number</label>
+            <input type="text" class="form-control" id="cc-number" placeholder="" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 mb-3">
+            <label for="cc-expiration">Expiration</label>
+            <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="cc-expiration">CVV</label>
+            <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <button class="btn btn-primary btn-lg btn-block btn-green" type="submit">Continue to checkout</button>
+      </div>
+      <!--end col-sm-6-->
+    </div>
+    <!--end row-->
+  </div>
+  <!--end container-->
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+</body>
+
+</html>
